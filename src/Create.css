@@ -1,0 +1,12 @@
+.barcode-container{
+    display: flex;
+    justify-content: center;
+}
+
+#barcode{
+    border-radius: 10px;
+}
+
+.button-container{
+    text-align: right;
+}
