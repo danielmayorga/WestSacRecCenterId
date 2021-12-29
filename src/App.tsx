@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar navbar-light bg-light justify-content-between">
-        <a className="navbar-brand" style={{marginLeft: "1em"}}>
+        <span className="navbar-brand" style={{marginLeft: "1em"}}>
           West Sac Rec
-        </a>
+        </span>
         <form className="form-inline" style={{marginRight: "1em"}}>
           <button className="btn btn-sm btn-outline-secondary" 
           type="button" 
