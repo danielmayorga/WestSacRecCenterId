@@ -24,7 +24,6 @@ export function Create(props :{ setUserInfo: (userInfo: UserInfo) => void }){
         setUserInfo(userInfo);
         navigator(AppRoutes.Home);
     }
-    console.log(style);
 
     return(
         <div>
