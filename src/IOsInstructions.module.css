@@ -1,0 +1,13 @@
+.shareImage{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 1.5em;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}

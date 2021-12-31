@@ -1,7 +1,7 @@
 import React, { FormEvent, useEffect, useState } from "react";
 import { OnlyNumberRegex, UserInfo, AppRoutes, NumericPatternRegex } from './helper';
 import JsBarcode from "jsbarcode";
-import './Create.css';
+import style from './Create.module.css';
 import { useNavigate } from "react-router-dom";
 
 export function Create(props :{ setUserInfo: (userInfo: UserInfo) => void }){
@@ -28,7 +28,7 @@ export function Create(props :{ setUserInfo: (userInfo: UserInfo) => void }){
     return(
         <div>
             {}
-            <div className="barcode-container">
+            <div className={style.barcodeContainer}>
                 <canvas id="barcode"></canvas>
             </div>
             
@@ -67,7 +67,7 @@ export function Create(props :{ setUserInfo: (userInfo: UserInfo) => void }){
                         Numeric Code to generate bar code. Provided by the Gym
                     </div>
                 </div>
-                <div className="button-container">
+                <div className={style.buttonContainer}>
                 <button id="submit" type="submit" className="btn btn-primary">Create Rec Center Id</button>
                 </div>
             </form>

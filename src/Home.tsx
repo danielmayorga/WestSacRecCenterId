@@ -1,7 +1,7 @@
 import JsBarcode from 'jsbarcode';
 import React, { useEffect } from 'react';
 import { UserInfo } from './helper';
-import "./Home.css";
+import style from "./Home.module.css";
 
 export function Home(props: {userInfo : UserInfo}){
     const {userInfo} = props;
@@ -10,7 +10,7 @@ export function Home(props: {userInfo : UserInfo}){
     },[userInfo.id]);
 
     return(
-        <div className='center'>
+        <div className={style.center}>
             <div className='barcode-container'>
                 <canvas id="barcode"></canvas>
             </div>

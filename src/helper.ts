@@ -4,6 +4,7 @@ export const NumericPatternRegex = "^\\d+$"
 export const AppRoutes = {
     Home: '/',
     Create: '/Create',
+    IOs: '/IOs',
 }
 
 const userInfoKey = "userInfo";
